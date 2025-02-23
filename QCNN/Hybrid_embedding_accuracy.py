@@ -84,7 +84,7 @@ def Benchmarking_Hybrid_Entanglement(dataset, classes, Encodings, N_samples, bes
         mean_entanglement_measure = np.mean(entanglement_measure)
         stdev_entanglement_measure = np.std(entanglement_measure)
 
-        f = open('Result/Hybrid_result_' + str(Encoding) + '.txt', 'a')
+        f = open('/media/naimur-neer/Local Disk/Proj_Rep/TAK_HUR code/QCNN/QCNN/Result/Hybrid_result_' + str(Encoding) + '.txt', 'a')
         f.write("\n")
         f.write("Entanglement measure Mean: ")
         f.write(str(mean_entanglement_measure))

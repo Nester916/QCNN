@@ -1,0 +1,3 @@
+
+Entanglement measure Mean: (0.5481579360455484+0j)
+Entanglement measure Standard Deviation: 0.11186061593384247

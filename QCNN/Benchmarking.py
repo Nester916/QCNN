@@ -141,7 +141,7 @@ def Benchmarking(dataset, classes, Unitaries, U_num_params, Encodings, circuit, 
 
     for i in range(I):
         for j in range(J):
-            f = open('Result/result.txt', 'a')
+            f = open('/media/naimur-neer/Local Disk/Proj_Rep/TAK_HUR code/QCNN/QCNN/Result/result.txt', 'a')
             U = Unitaries[i]
             U_params = U_num_params[i]
             Encoding = Encodings[j]
@@ -175,7 +175,7 @@ def Data_norm(dataset, classes, Encodings, binary=True):
     J = len(Encodings)
     Num_data = 10000
 
-    f = open('Result/data_norm.txt', 'a')
+    f = open('/media/naimur-neer/Local Disk/Proj_Rep/TAK_HUR code/QCNN/QCNN/Result/data_norm.txt', 'a')
 
     for j in range(J):
         Encoding = Encodings[j]

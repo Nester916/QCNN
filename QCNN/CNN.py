@@ -2,9 +2,6 @@ import data
 import numpy as np
 import torch
 import torch.nn as nn
-import os
-import sys
-sys.path.append(os.path.abspath("/media/naimur-neer/Local Disk/Proj_Rep/TAK_HUR code/QCNN/QCNN"))
 
 def get_n_params(model):
     np=0
