@@ -2,6 +2,9 @@ import data
 import numpy as np
 import torch
 import torch.nn as nn
+import os
+import sys
+sys.path.append(os.path.abspath("/media/naimur-neer/Local Disk/Proj_Rep/TAK_HUR code/QCNN/QCNN"))
 
 def get_n_params(model):
     np=0
@@ -77,7 +80,7 @@ def Benchmarking_CNN(dataset, classes, Encodings, Encodings_size, binary, optimi
             N_params = get_n_params(CNN)
 
 
-        f = open('Result/result_CNN.txt', 'a')
+        f = open('/media/naimur-neer/Local Disk/Proj_Rep/TAK_HUR code/QCNN/QCNN/Result/result_CNN.txt', 'a')
         f.write("Loss History for CNN with " + str(Encoding) + ":" )
         f.write("\n")
         f.write(str(loss_history))

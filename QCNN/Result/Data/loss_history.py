@@ -1,4 +1,7 @@
 import matplotlib.pyplot as plt
+import os
+import sys
+sys.path.append(os.path.abspath("/media/naimur-neer/Local Disk/Proj_Rep/TAK_HUR code/QCNN/QCNN"))
 from Benchmarking import Encoding_to_Embedding
 from data import data_load_and_process
 from Training import circuit_training
